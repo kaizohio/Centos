@@ -1,0 +1,8 @@
+# R-studio issue
+sudo yum install libxml2-devel
+sudo yum install openssl-devel
+sudo yum install curl-devel
+
+# Dropbox issue
+ yum-config-manager --disable Dropbox
+  yum-config-manager --enable Dropbox
