@@ -9,3 +9,8 @@ sudo yum install curl-devel
 # DOCK
 http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-1.el7.nux.noarch.rpm 
 yum install cairo-dock
+# SPOTIFY
+yum install https://downloads.ulyaoth.net/rpm/ulyaoth-latest.centos.x86_64.rpm
+yum install spotify-client 
+Source:
+https://www.ulyaoth.net/repository.html
