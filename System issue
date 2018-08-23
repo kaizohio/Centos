@@ -26,3 +26,5 @@ State : Sleeping, pid: 2600
 
 Try :#rm -f /var/run/yum.pid 2600
 then update your yum
+#Jupyter notebook
+link:https://www.jianshu.com/p/960f011f712e
