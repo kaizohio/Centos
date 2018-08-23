@@ -1,4 +1,5 @@
 # R-studio issue
+yum install R -y
 sudo yum install libxml2-devel
 sudo yum install openssl-devel
 sudo yum install curl-devel
