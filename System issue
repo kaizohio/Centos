@@ -14,3 +14,14 @@ yum install https://downloads.ulyaoth.net/rpm/ulyaoth-latest.centos.x86_64.rpm
 yum install spotify-client 
 Source:
 https://www.ulyaoth.net/repository.html
+
+
+#####update interrupt##########
+#Another app is currently holding the yum lock; waiting for it to exit…
+The other application is: yum
+Memory : 21 M RSS (1.2 GB VSZ)
+Started: Mon Oct 14 12:19:29 2013 – 08:47 ago
+State : Sleeping, pid: 2600
+
+Try :#rm -f /var/run/yum.pid 2600
+then update your yum
