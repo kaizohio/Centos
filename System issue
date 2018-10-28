@@ -28,3 +28,8 @@ Try :#rm -f /var/run/yum.pid 2600
 then update your yum
 #Jupyter notebook
 link:https://www.jianshu.com/p/960f011f712e
+
+
+##################
+vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS\x207\x20x86_64 quiet ==》vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS\x207\x20x86_64 quiet
+==》vmlinuz initrd=initrd.img inst.stage2=hd:/dev/sdaX quiet
